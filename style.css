@@ -209,3 +209,27 @@ height:140px;
     border-left:5px solid #37ff82;
     padding-left:15px;
 }
+/* ===== Gallery ===== */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.gallery img{
+width:100%;
+height:230px;
+object-fit:cover;
+border-radius:15px;
+border:3px solid #2cff73;
+box-shadow:0 0 15px rgba(0,255,120,.2);
+cursor:pointer;
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+box-shadow:0 0 25px rgba(0,255,120,.6);
+}
