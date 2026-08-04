@@ -168,3 +168,44 @@ height:140px;
 }
 
 }
+/* ===== Article Section ===== */
+
+.article-section{
+    padding:70px 20px;
+    background:#08110a;
+}
+
+.article-container{
+    max-width:900px;
+    margin:auto;
+    background:#102416;
+    border:2px solid #2ddf73;
+    border-radius:18px;
+    padding:30px;
+    color:#fff;
+    box-shadow:0 0 25px rgba(45,223,115,.25);
+}
+
+.article-container h2{
+    text-align:center;
+    color:#37ff82;
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+.article-container p{
+    font-size:18px;
+    line-height:1.9;
+    text-align:justify;
+    margin-bottom:18px;
+}
+
+.article-container blockquote{
+    margin-top:25px;
+    text-align:center;
+    color:#37ff82;
+    font-size:22px;
+    font-weight:bold;
+    border-left:5px solid #37ff82;
+    padding-left:15px;
+}
